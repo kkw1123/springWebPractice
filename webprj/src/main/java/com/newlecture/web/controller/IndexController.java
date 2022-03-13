@@ -11,11 +11,10 @@ public class IndexController implements Controller{
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
-		System.out.println("index controller");
+		//System.out.println("index controller");
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("data", "Hello MVC");
-		mv.setViewName("/WEB-INF/view/index.jsp");
-		
+		mv.setViewName("index");
 		return mv;
 	}
 
