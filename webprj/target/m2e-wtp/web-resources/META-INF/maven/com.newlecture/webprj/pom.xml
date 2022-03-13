@@ -6,6 +6,11 @@
   <packaging>war</packaging>
   
   <dependencies>
+	 <dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-webmvc</artifactId>
+	    <version>5.2.19.RELEASE</version>
+	</dependency>
   	<dependency>
     		<groupId>org.apache.tomcat</groupId>
     		<artifactId>tomcat-api</artifactId>
